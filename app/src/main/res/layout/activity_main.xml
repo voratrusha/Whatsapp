@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+   <ImageView
+       android:layout_width="@dimen/_60sdp"
+       android:layout_height="@dimen/_60sdp"
+       android:src="@drawable/whatsapp"
+       android:layout_gravity="center"
+       android:layout_marginTop="@dimen/_200sdp"/>
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="from"
+       android:layout_marginTop="@dimen/_150sdp"
+      android:layout_gravity="center"
+      android:textSize="16sp"/>
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+      android:text="Meta"
+      android:textColor="#189C0E"
+      android:textSize="20sp"
+      android:layout_gravity="center"/>
+</LinearLayout>
